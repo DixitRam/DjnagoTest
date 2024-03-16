@@ -41,7 +41,7 @@ body {
 
 #side-box-1 {
 
-  background: url('Rectangle\ 1.png'), #E9F6FF 0px 430.249px / 100% 57.568% no-repeat;
+  background: url('bg.png'), #E9F6FF 0px 430.249px / 100% 57.568% no-repeat;
   width: 60%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -128,7 +128,7 @@ input {
     height: 100%;
     width: 100%;
     
-      background: url(Rectangle\ 1.png), #E9F6FF;
+      background: url(bg.png), #E9F6FF;
       background-position-y: 105%;
       background-size: 130%;
       background-repeat: no-repeat;

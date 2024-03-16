@@ -5,7 +5,7 @@
   {% load static %}
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>replit</title>
+  <title>Shrimp Easy - Signup</title>
   <link href="{% static 'LogIn.css' %}" rel="stylesheet" type="text/css" />
 </head>
 
@@ -31,9 +31,9 @@
         <input class="submit" type="submit" value="Sign Up">
         {% if error_message %}
         <span class="error">
-            {{ error_message }}
+          {{ error_message }}
         </span>
-    {% endif %}
+        {% endif %}
       </form>
       <div class="Sign-In">
         <p>Already have account? <a href="{% url 'login' %}">Sign In</a>
