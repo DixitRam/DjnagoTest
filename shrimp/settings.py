@@ -179,7 +179,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'shrimp.urls'
+ROOT_URLCONF = 'ShrimpEasy.urls'
 
 TEMPLATES = [
     {
