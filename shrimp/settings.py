@@ -153,7 +153,7 @@ SECRET_KEY = 'django-insecure-kxan(dvvlo5cvm(@qd_w67u%2u!=q@8_8cd1p3+w#*en^2sw@#
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['192.168.112.148','127.0.0.1']
+ALLOWED_HOSTS = ['.vercel.app','127.0.0.1']
 
 
 # Application definition
@@ -197,7 +197,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'shrimp.wsgi.application'
+WSGI_APPLICATION = 'shrimp.wsgi.app'
 
 
 # Database
