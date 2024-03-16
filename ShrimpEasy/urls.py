@@ -19,14 +19,13 @@ from django.contrib import admin
 from django.urls import path
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('',views.home,name='home'),
-    path('login',views.login,name='login'),
-    path('signup',views.signup,name='signup'),
-    path('logout',views.logout,name='logout'),
-    path('addNewFarm',views.addNewFarm,name='addNewFarm'),
-    path('deleteFarm',views.deleteFarm,name='deleteFarm'),
-    path('calculateProgress',views.calculateProgress,name='calculateProgress'),
+    path('',views.home),
+    path('login',views.login),
+    path('signup',views.signup),
+    path('logout',views.logout),
+    path('addNewFarm',views.addNewFarm),
+    path('deleteFarm',views.deleteFarm),
+    path('calculateProgress',views.calculateProgress),
     # path('weather',views.weather,name='weather')
     
 ]
