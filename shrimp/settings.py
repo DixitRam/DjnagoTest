@@ -203,7 +203,6 @@ WSGI_APPLICATION = 'shrimp.wsgi.app'
 
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
-from dotenv import load_dotenv
 
 DATABASES = {
 	"default": dj_database_url.parse(os.environ.get("DATABASE_URL"))
