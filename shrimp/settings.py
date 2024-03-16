@@ -205,8 +205,7 @@ WSGI_APPLICATION = 'shrimp.wsgi.app'
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
 DATABASES = {
-	"default": dj_database_url.parse(os.environ.get("DATABASE_URL"))
-
+	"default": dj_database_url.parse('postgres://shrimpeasy_db_user:Lx7ffYUIPjn7qUzsAKG8nMWHc8DL2QZm@dpg-cnqjlvsf7o1s73cj8r40-a.oregon-postgres.render.com/shrimpeasy_db')
 }
 
 
