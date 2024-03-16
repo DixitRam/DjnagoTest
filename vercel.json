@@ -9,6 +9,10 @@
     {
       "src": "/(.*)",
       "dest": "shrimp/wsgi.py"
+    },
+    {
+      "src": "/static/(.*)",
+      "dest": "/static"
     }
   ]
 }
